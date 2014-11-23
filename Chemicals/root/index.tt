@@ -1,0 +1,22 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+  <title>農薬検索</title>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="/static/js/search.js"></script>
+  <link rel="stylesheet" type="text/css" href="/static/css/style.css" />
+</head>
+<body>
+  <div id="search">
+    <form method="post" name="search" id="frm_search">
+      <table border=1>
+      <caption>農薬検索</caption>
+      <tr><td>フリーワード</td><td><input type="text" name="q" value="" /></td></tr>
+      <tr><td>農薬名</td><td><input type="text" name="display_name" value="" /></td></tr>
+      <tr><td>作物名</td><td><input type="text" name="crop_name" value="" /></td></tr>
+      <tr><td colspan=2 align=right><input type="submit" name="search_btn" id="search_btn" value="submit" onclick="q_submit();" /></td></tr>
+      </table>
+    </form>
+  </div>
+</body>
+</html>
